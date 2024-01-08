@@ -1,20 +1,73 @@
-<!DOCTYPE html>  <html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
-  <title>Contato</title>
-  <link rel="stylesheet" href="./Style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo(a) Kethellyn!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #3498db, #2ecc71);
+            text-align: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            color: #eee;
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #fff;
+            color: #3498db;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a:hover {
+            background-color: #3498db;
+            color: #fff;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+            margin-top: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        @media only screen and (max-width: 600px) {
+            h1 {
+                font-size: 1.5em;
+            }
+        }
+
+        @media only screen and (max-width: 400px) {
+            a {
+                font-size: 0.8em;
+                padding: 8px 16px;
+            }
+
+            img {
+                max-width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
 </head>
 <body>
-  <section class="content">
-    <div class="contato">
-      <h3>Formulário de Contato</h3>
-      <form method="POST" action="./php.php">
-        <input class="field" name="nome" placeholder="Nome">
-        <input class="field" name="email" type="email" placeholder="Email">
-        <textarea class="field" name="mensagem" placeholder="Digite sua mensagem aqui!"></textarea>
-        <input type="submit" value="Enviar">
-      </form>
-    </div>
-  </section>
+    <img src="./oi.jpeg" alt="Logo da Empresa">
+    <h1>Seja bem-vindo(a) Kethellyn!</h1>
+    <p>Esperamos que goste dos nossos serviços. Clique em <strong>Continuar</strong> e depois em <strong>Visit Site</strong> para prosseguir.</p>
+    <a href="https://ideally-clean-guinea.ngrok-free.app" id="prosseguir">Prosseguir</a>
 </body>
-</html> 
+</html>
