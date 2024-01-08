@@ -17,6 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     mail($destinatario, $assunto, $corpo_email);
 
     // Após o envio do e-mail, você pode redirecionar o usuário para uma página de confirmação
-    header("Location: confirmacao.html");
+    header("Location: google.com");
 }
 ?>
